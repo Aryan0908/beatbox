@@ -1,0 +1,307 @@
+/* This is the body */
+
+body{
+    background-color: rgb(184, 166, 166);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    border: rgb(19, 18, 18) solid 1px;
+    margin: 0%;
+    padding: 60px 20px 800px 20px;
+    
+    
+}
+
+
+/* This is first heading Beatboxing */
+
+#heading{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 200px;
+    text-align: center;
+}
+
+div.start{
+    line-height: 30px;
+    margin:280px 0px 20px 0px;
+}
+
+/* image oof D Low */
+
+div.start-image{
+    border: rgb(3, 3, 3) dotted 5px;
+    float: left;
+    padding: 10px 10px 5px 10px;
+    margin: 0px 20px 10px 0px;
+    border-radius: 20px;
+    
+}
+
+/* What is beatboxing*/
+
+.start-head{
+    font-size: 35px;
+    font-family:Century Gothic;
+    padding-top: 15px;
+   
+}
+
+.start-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* Link to wikipedia */
+
+.normal-links:link, .normal-links:visited{
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    background-color: grey;
+    padding: 5px 10px;
+}
+
+.normal-links:hover{
+    color: teal;
+    text-decoration: none;
+    background-color: white;
+    
+
+}
+
+
+/* Table of contents */
+
+div#both{
+    width: 100%;
+    height: 610px;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+div#table{
+    float: right;
+    border: black solid 3px;
+    margin-top: 115px;
+    padding: 10px 5px 10px 5px;
+    background-color: whitesmoke;
+    
+}
+
+div#table-content{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div#contents{
+    font-size: 15px;
+    line-height: 30px;
+    font-family:'Open Sans';
+    color: black;
+
+}
+
+
+/* Information about Beatbox Communities */
+
+div#communities{
+    float: left;
+    
+    position: relative;
+    top: 70px;
+    padding-left: 70px;
+    
+    width: 68.4%;
+    margin-right: 0px;
+
+
+    
+}
+
+.community-head{
+    font-size: 50px;
+    font-family: 'Arial Rounded MT';
+    
+}
+
+
+/* Social Media Icons */
+
+/* Style all font awesome icons */
+.fa{
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.5;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .unity-fb{
+    background:#3b5999;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  /* Discord*/
+
+  .unity-insta{
+      background-color: #e4405f;
+      color: rgb(255, 250, 250);
+      position: absolute;
+      z-index: 2;
+      top: 230px;
+      left: 0px;
+
+  }
+
+  .unity-twitt{
+      background-color: #55acee;
+      color: white;
+      position: absolute;
+      z-index: 3;
+      top: 310px;
+      left: 0px;
+
+  }
+
+  /* Swiss beatbox */
+
+/* Image of Swiss Beatbox */
+
+div#sbx-community{
+    
+    width: 100%;
+    height: 255px;
+    margin-bottom: 60px;
+   
+    
+
+}
+
+div.communities-photo img{
+    float: right;
+    padding: 15px;
+    border-radius:15%; 
+    margin-right: 40px;
+    margin-top: 10px;
+    border: black dashed 5px;
+}
+
+
+/* Information about sbx  */
+
+div.community-info{
+    position: relative;
+    width: 73%;
+    z-index: 4;
+    }
+
+.community-info-head{
+    font-size: 30px;
+    font-family:Century Gothic;
+    padding-top: 15px;
+   
+    margin-top: 15px;
+}
+
+
+/* Social Media icons of SBX */
+
+.comm{
+    padding: 7px;
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    
+   }
+
+.comm:hover{
+    opacity: 1;
+}
+
+
+
+
+
+/* facebook */
+
+.comm-book:hover{
+    background-color: #3b5999;
+    color: white;
+}
+
+.comm-book{
+    position: absolute;
+    top: 21px;
+    right:120px;
+    z-index: 5;
+  
+    
+}
+
+/* instagram */
+
+.comm-insta:hover{
+    background-color: #e4405f;
+    color: white;
+}
+
+.comm-insta{
+    position:absolute;
+    top: 21px;
+    right: 60px;
+    z-index: 6;
+}
+
+/* youtube */
+
+.comm-tube:hover{
+    background-color:#cd201f ;
+    color: white;
+}
+
+.comm-tube{
+    position: absolute;
+    top: 21px;
+    right: 0px;
+    z-index: 7;
+    width: 20px;
+    
+}
+
+
+/* Beatbox international */
+
+div#international-community{
+    margin-bottom: 60px;
+    height: 255px;
+}
+
+
+
+
+
+    
+
